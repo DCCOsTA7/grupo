@@ -1,0 +1,309 @@
+
+
+*{
+	/* toda pagina*/
+	
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   font-family: 'Poppins', sans-serif;
+}
+
+/* todO ESTILO DO CABEÇALHO */
+
+.center{
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 2%;
+    display: flex;
+	flex-wrap: wrap;
+	
+}
+
+
+header{
+    background-color:white;
+    padding: 20px 0;
+    border-bottom: 3px solid rgb(200, 200, 200) ;
+	
+	
+}
+
+
+.logo{
+	position: relative;
+	left: 80px;
+    color: #124265;
+
+}
+
+
+#MenuB{
+	width:70%;
+ position: absolute;
+	top:31px;
+
+}
+
+.menu {
+	
+    width:90%;
+    text-align: right;
+	
+	
+}
+
+.menu a{
+    color: #124265;
+    font-size: 14px;
+    text-decoration: none;
+    display: inline-block;
+    margin-right: 20px;
+	height: 800px;
+    /*transition: 0.4s;*/
+}
+.menu a:hover{
+    color: #6fb9f1;
+}
+.logo h2{
+    font-weight: normal;
+    font-size: 18px;
+}
+
+/* Parte do section */
+section.main{
+background-image: url( pexels-adrien-olichon-3137052.jpg);
+ padding: 70px 0;
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+.main_cta{
+	 
+width:100%;
+margin: 60px 0;
+text-align: center;
+
+}
+.main_cta h2{
+
+color:  #124265;
+font-size: 40px;
+}
+
+.main_cta p{
+ color: gray;
+ font-size: 19px;
+margin: 10px 0;	
+}
+.main_cta #btn1{
+	background-color: #124265;
+    display: inline-block;
+    padding: 7px 30px;
+	transition: 0.4;
+    color: white;
+    border-radius: 6px;
+	font-size: 18px;
+	border: 0;
+	cursor: pointer;
+	margin-top: 4%;
+	}
+.main_cta #btn1:hover{
+	
+	background-color: white;
+    color:  #124265;
+	border: 1px solid  #124265;
+	transition: 0.4s;
+}
+
+
+.diferenciais{
+    
+ display: flex;
+flex-wrap: wrap;	
+}
+
+.diferencial-single{
+	border-radius: 10px;
+ background-color: white;
+	width: 31%;
+	margin-right: 2%;
+	padding: 50px 20px;
+    margin-bottom: 2%;
+
+}
+
+.diferencial-single i{
+
+ color: #124265;
+font-size: 26px;
+}
+.diferencial-single h2{
+
+ color: #124265;
+margin: 10px 0;
+	font-size: 17px;
+}
+.diferencial-single p{
+
+ color: gray;
+font-size: 14px;
+line-height: 30px;
+}
+#dois{
+    margin-right: 4%;
+    margin-left: 10%;
+ }
+
+section.sobre{
+padding: 80px 0;
+
+}
+
+.chamda-sobre{
+width: 100%;	
+ text-align: center;
+
+}
+.chamda-sobre h2{
+ color: #124265;
+
+}
+.chamda-sobre p{
+font-size: 14px;
+color: gray;
+margin: 10px 0;
+}
+.conteudo-sobre{
+display: flex;
+	flex-wrap: wrap;
+}
+.conteudo-sobre p{
+	width: 48%;
+	
+ margin-right:  2px;
+color: #444444;
+}
+.conteudo-sobre span{
+   display: inline-block;
+	width: 100%;
+	margin-top: 10px;
+}
+.conteudo-sobre i{
+ color: #007bff;
+
+}
+/*3BLOCOS*/
+@media screen and (max-width:768px){ 
+ .diferencial-single{ width:100%;
+	 margin-bottom: 20px;
+	
+	}
+.conteudo-sobre p{
+width: 100%; margin: 20px 20px;
+}
+.menu{
+    width: 100%; margin: 20px 20px;
+
+}
+}
+section.conquista{
+background-color: #f8fbfe;
+padding: 8px 0;
+}
+.conquista-single{
+    width:22% ;
+    margin-right: 3%;
+    text-align: center;
+    color: #124265;
+    }
+    .conquista-single h2{
+        font-size: 30px;
+        }
+
+ .BI{
+border: none;
+	background-color: white;
+	 color: white;
+}
+.pai{
+	
+background-color:#124265;
+	padding: 2em;
+	height: 100%;
+display: flex;
+	flex-wrap: wrap;
+justify-content: space-between;
+
+}
+.pai div{ 
+font-size: 18px;
+color: white;
+
+}
+
+.servicos label{ 
+    padding: 0 13em;
+	align-items: center;
+
+}
+.servicos h4 { 
+	font-size: 24px;
+    padding: 0 9em;
+	align-items: center;
+
+}
+.contacto a{
+ padding: 0  12em;
+ color: white;
+ text-decoration: none;	
+ 
+
+}
+.contacto h4{
+font-size: 24px;
+ padding: 0  7em;
+ color: white;
+
+
+}
+
+@media screen and (max-width:768px){ 
+ .pai{ width:100%; 
+	 
+	
+	}
+.servicos h4  {
+width: 100%;
+	padding: 0 1em;
+}
+	.servicos label {
+width: 100%;
+	padding: 0 3em;
+}
+.contacto  h4  {
+    width: 100%;
+	
+padding: 0 1em;
+}
+	.contacto a  {
+width: 100%;
+	padding: 0 3em;
+}
+
+/* SLIDSHOW 
+
+
+.content{
+	
+    width: 935px;
+    height: 520px;
+   
+    overflow: hidden;
+position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+*/
